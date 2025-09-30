@@ -1,0 +1,193 @@
+/*INDEX*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Staatliches&display=swap');
+
+.navbar-1{
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	background-color: #18001C;
+	min-height:100vh;
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 17px;
+	line-height: 1.8em;
+	margin: 0;
+}
+
+.portada2{
+	width: 100%;
+	object-fit: cover;
+}
+
+p{
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+
+.texto{
+	font-family: 'Staatliches', sans-serif;
+}
+
+i{
+	color: black;
+}
+.iconos a :hover{
+	color: white;
+}
+
+.iconos{
+	padding: 12px;
+	color: black;
+	background: #9A76FF;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+	gap: 50px;
+	font-size: 30px;
+
+}
+footer p {
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+
+
+/*ALBUMES*/
+#section2{
+	margin: 0 auto;
+}
+h3{
+color: white;
+text-align: center;
+font-size: 40px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+padding: 10px;
+}
+
+
+/*GALERIA*/
+.contentVideo{
+	width: 40%;
+	position: relative;
+}
+video{
+	margin-left: 75%;
+	margin-top: -80px;
+	padding: 20px;
+}
+.contenedor{
+	width: 100%;
+	padding: 20px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.slider-exterior{
+	position: relative;
+}
+.slider-interior{
+	position: relative;
+	padding: 5px;
+	border: #666 solid 1px;
+}
+.slider-interior img{
+	display: none;
+	width: 500px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.slider-interior img.activa{
+	display: inline-block;
+}
+
+.anterior{
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	left: 5px;
+	z-index: 100;
+	width: 50px;
+}
+.siguiente{
+	cursor: pointer;
+	position: absolute;
+	top: 140px;
+	right: 5px;
+	z-index: 100;
+	width: 50px;
+}
+
+
+
+/*.swiper-hero {
+  width: 100%;
+}
+.swiper-hero img{
+	height: 360px;
+	width: 100%;
+	object-fit: cover;
+}
+@media (min-width: 1024px) {
+	.swiper-hero img{
+	height: 644px;
+}
+.swiper-hero .swiper-button-prev{
+	color: black;
+}
+
+.swiper-hero .swiper-button-next{
+	color: black;
+}
+.swiper-hero .swiper-pagination{
+	--swiper-pagination-color: white;
+}
+/*
+
+.texto{
+	color: white;
+}
+
+/* GIRAS MUNDIALES*/
+.textos{
+	font-family: 'Staatliches', sans-serif;
+}
+
+/*FORMULARIO*/
+
+.alert{
+	display: block;
+	padding: 12px 20px;
+	background: #FF8686;
+	color: #680000;
+	margin-bottom: 10px;
+	border: 1px solid #f5c6cb;
+	border-radius: 10px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 15px;
+}
+
+
+.form_titulo{
+	font-family: 'Staatliches', sans-serif !important;
+	color: black;
+	font-size: 40px;
+	text-align: center;
+}
+
+
